@@ -1,0 +1,108 @@
+.nav{
+  background-color: #0091ea;
+  color: #ffffff;
+  padding:15px 4px;
+  text-align: center;
+  width: 100%;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.facebook{
+  background-color:#0000ff;
+  color: white;
+  padding: 15px 20px;
+  border: white;
+  cursor: pointer;
+  width: 100%;
+}
+.google{
+  background-color:#ff6347;
+  color: white;
+  padding: 15px 20px;
+  border: white;
+  cursor: pointer;
+  width: 100%;
+}
+
+.epam{
+ background:#aeea00;
+  color: white;
+  padding: 15px 20px;
+  border: white;
+  cursor: pointer;
+  width: 100%;
+}
+ button {
+  background-color: #0091ea;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+a
+{
+	text-decoration:none;
+}
+a:hover
+{
+	color:red;
+}
+
+a:link
+{
+	color:black;
+	font-weight:bold;
+}
+
+h4 {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #b0bec5; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+   color:#b0bec5;
+} 
+
+h4 span { 
+    background:#fff; 
+    padding:0 10px;
+}
+
+
+
+.fa-user-graduate, .fa-graduation-cap{
+float:left;
+}
+
+.fa-times, .fa-window-close{
+float:right;
+}
+
+#hide
+{
+	width: 10%;
+	height:3px;  
+	background-color:red;
+}
+

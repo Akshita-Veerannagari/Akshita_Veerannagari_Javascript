@@ -1,0 +1,68 @@
+<html>
+<head>
+    <link rel="stylesheet" href="fontawesome-free-5.13.0-web\css\all.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SIGN UP </title>
+	<script>
+		function ValidateEmail(inputText)
+		{
+			var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+			if(inputText.value.match(mailformat))
+			{
+				document.form.email.focus();
+				return true;
+			}
+			else
+			{
+				alert("You have entered an invalid email address!");
+				document.form.email.focus();
+				return false;
+			}
+		}
+
+	</script>
+</head>
+<body>
+	<div class="nav">
+    <i class="fas fa-user-graduate"></i>
+	<b> SIGN IN</b>
+    <i class="fas fa-times"></i>
+	</div>
+	<br>
+ 
+	<form action="" name="form">
+	<div class="input-container">
+
+		<input class="input-field" type="email" placeholder="mail@example.com" name="email">
+		<i class="fa fa-envelope icon"></i>
+	</div>
+
+	<div class="input-container">
+    
+		<input class="input-field" type="password" placeholder="password" name="psw">
+		<i class="fa fa-lock icon"></i>
+	</div>
+	<button type="submit" name="SignIn" onclick="ValidateEmail(document.form.email)"> <b>SIGN IN</b></button>
+	</form>
+
+	<p style="text-align:left;"><a href="">Forgot your password? </a>
+		<span style="float:right;">
+			<a href="register.html">Register</a>
+		</span>
+	</p>
+
+
+	<h4><span>OR</span></h4>
+	<div>
+		<button type="submit" class="facebook"> <i class="fab fa-facebook-f"></i></i></button>
+		<br><br>
+		<button type="submit" class="google"><i class="fab fa-google"></i></button>
+		<br> <br>
+		<button type="submit" class="epam"><i class="fas fa-angle-left"></i>EPAM LOGIN<i class="fas fa-angle-right"></i></button>
+
+	</div>
+</body>
+
+</html> 
+
